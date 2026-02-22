@@ -103,13 +103,26 @@
         <h3>
             Contato
         </h3>
-        <address>
-            Email: <a href="mailto:lucas.machado.santos91@gmail.com">lucas.machado.santos91@gmail.com</a><br>
-            Telefone: <a href="+5548984671345">+55 48 98467-1345</a>
-        </address>
+        
+        <form>
 
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
 
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone">
+            
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto">
+                <option value="">Orçamento</option>
+                <option value="">Duvidas</option>
+                <option value="">Outro</option>
+            </select>
 
-    </footer>
+        </form>
+
 </body>
 </html>
